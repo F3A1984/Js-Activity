@@ -1,0 +1,30 @@
+#container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+p { margin-top: 100px;
+    color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+input {
+	width: 100px;
+}
+
+button {
+	margin-left: 10px;
+}
+
+.p #result {
+    margin-top: 150px;
+    color: black;
+	text-align: center;
+	font-weight: bold;
+}

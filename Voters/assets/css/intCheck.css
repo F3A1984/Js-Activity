@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  input {
+    text-align: center;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  .p #result {
+    margin-top: 150px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }

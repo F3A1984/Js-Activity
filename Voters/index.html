@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Voters Checking Eligibility</title>
+</head>
+<body>
+	
+    <form onsubmit="return checkVoterEligibility()">
+		<h1>Voter Eligibility Checker</h1>
+		<label for="firstName">First Name:</label><br>
+		<input type="text" id="firstName" name="firstName" required><br>
+		<label for="lastName">Last Name:</label><br>
+		<input type="text" id="lastName" name="lastName" required><br>
+		<label for="street">Street Address:</label><br>
+		<input type="text" id="street" name="street" required><br>
+		<label for="barangay">Barangay:</label><br>
+		<input type="text" id="barangay" name="barangay" required><br>
+		<label for="municipality">Municipality:</label><br>
+		<input type="text" id="municipality" name="municipality" required><br>
+		<label for="city">City:</label><br>
+		<input type="text" id="city" name="city" required><br>
+		<label for="province">Province:</label><br>
+		<input type="text" id="province" name="province" required><br>
+        <label for="stayYear">Years of Residency</label><br>
+        <input type="text" id="input" />
+	    <button onclick="checkNumber()">Check</button><br>
+        <label for="birthYear">Birth Year:</label><br>
+		<input type="number" id="birthYear" name="birthYear" min="1900" max="2023" required><br>
+		<input type="submit" value="Check Eligibility">
+        <!-- <input type="submit" value="Check Eligibility"> -->
+		<p class="result" id="result"></p>
+	</form>
+    
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
